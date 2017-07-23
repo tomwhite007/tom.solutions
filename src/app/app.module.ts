@@ -7,22 +7,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PreviousMeetupsComponent } from './previous-meetups/previous-meetups.component';
 import { LinksComponent } from 'app/links/links.component';
-import { ContactComponent } from 'app/contact/contact.component';
 import { MeetupsModule } from 'app/meetups/meetups.module';
+import { AboutComponent } from "app/about/about.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     PreviousMeetupsComponent,
     LinksComponent,
-    ContactComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule,
-    MeetupsModule
+    MeetupsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
