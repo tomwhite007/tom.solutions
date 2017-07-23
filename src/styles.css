@@ -33,3 +33,13 @@ main p {
   left: 13px;
 }
 
+
+  @media (max-width: 768px) {
+    .nav>li>a {
+      padding: 10px 30px;
+    }
+    header {
+      height: max-content;
+    }
+  }
+
