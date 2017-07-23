@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://angular2bes.firebaseapp.com/meetups/graphql-throwdown</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://angular2bes.firebaseapp.com/meetups/http-and-observables</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://angular2bes.firebaseapp.com/meetups/angular4-baked</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://angular2bes.firebaseapp.com/meetups/angular2-back-to-work</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://angular2bes.firebaseapp.com/links</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>hhttps://angular2bes.firebaseapp.com/about</loc>
+  <lastmod>2017-07-23T14:04:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
