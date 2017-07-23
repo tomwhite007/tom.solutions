@@ -3,8 +3,9 @@
 
 header {
   font-family: Raleway;
+  font-weight: 600;
   display: block;
-  height: 90px;
+  height: 100px;
 }
 
 header h1 {
@@ -17,8 +18,14 @@ li.active {
 
 main {
   font-family: sans-serif;
-  margin: 20px 15px;
+  padding: 1px 15px;
   display: block;
+  min-height: 100%;
+}
+
+main p {
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .dropdown-menu {
