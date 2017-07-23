@@ -5,16 +5,24 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { PreviousMeetupsComponent } from './previous-meetups/previous-meetups.component';
+import { LinksComponent } from 'app/links/links.component';
+import { ContactComponent } from 'app/contact/contact.component';
+import { MeetupsModule } from 'app/meetups/meetups.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PreviousMeetupsComponent,
+    LinksComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MeetupsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
