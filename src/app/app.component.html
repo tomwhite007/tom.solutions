@@ -5,17 +5,24 @@
       Angular Meetup - Brighton / Worthing
     </h1>
 
-    <nav class="nav-bar">
-      <a href="https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/" target="_blank">Meetup Group</a>
-      <div class="nav-link">
+    <div>
+    <ul class="nav navbar-nav">
+      <li [ngClass]="{ 'active': showPrevious }">
         <a (click)="previousDropDown()">Meetups</a>
-        <app-previous-meetups *ngIf="showPrevious"></app-previous-meetups>
-      </div>
-      <a routerLink="links">Links</a>
-      <a routerLink="contact">Contact</a>
-    </nav>
+        <app-previous-meetups *ngIf="showPrevious"></app-previous-meetups></li>
+      <li>
+        <a routerLink="links" (click)="previousDropDown(false)">Links</a>
+      </li>
+      <li>
+        <a routerLink="contact" (click)="previousDropDown(false)">Contact</a>
+      </li>
+      <li><a href="https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/" target="_blank" (click)="previousDropDown(false)">Meetup.com</a></li>
+    </ul>
+    </div>
 
   </header>
 
-  <router-outlet></router-outlet>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
 

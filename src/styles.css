@@ -1,10 +1,28 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-body {
-  font-family: sans-serif;
-  margin: 10px 20px;
-}
 
 header {
   font-family: Raleway;
+  display: block;
+  height: 90px;
 }
+
+header h1 {
+  padding: 0 15px;
+}
+
+li.active {
+  background-color: #eeeeee;
+}
+
+main {
+  font-family: sans-serif;
+  margin: 20px 15px;
+  display: block;
+}
+
+.dropdown-menu {
+  display: block;
+  left: 13px;
+}
+

@@ -14,7 +14,8 @@ const routes: Routes = [{
     { path: 'graphql-throwdown', component: GraphqlThrowdownComponent },
     { path: 'http-and-observables', component: HttpAndObservablesComponent },
     { path: 'angular4-baked', component: Angular4BakedComponent },
-    { path: 'angular2-back-to-work', component: Angular2BackToWorkComponent }
+    { path: 'angular2-back-to-work', component: Angular2BackToWorkComponent },
+    { path: '**', pathMatch: 'full', redirectTo: 'graphql-throwdown' }
   ]
 }];
 

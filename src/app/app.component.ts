@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from "@angular/router";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,11 @@ export class AppComponent {
 
   constructor (private router: Router) {}
 
-  previousDropDown () {
+  previousDropDown (set?: boolean) {
+    if (set === false || set === true) {
+      this.showPrevious = set;
+      return;
+    }
     this.showPrevious = !this.showPrevious;
   }
 
