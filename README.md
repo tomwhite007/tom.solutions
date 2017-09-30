@@ -6,3 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 http://tom.solutions/
 or 
 https://angular2bes.firebaseapp.com/
+
+
+## Deploy notes for me
+
+ng build --prod
+firebase deploy
