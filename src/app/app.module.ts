@@ -6,22 +6,22 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PreviousMeetupsComponent } from './previous-meetups/previous-meetups.component';
-import { LinksComponent } from 'app/links/links.component';
-import { MeetupsModule } from 'app/meetups/meetups.module';
-import { AboutComponent } from "app/about/about.component";
+import { MeetupsModule } from './meetups/meetups.module';
+import { LinksModule } from './links/links.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PreviousMeetupsComponent,
-    LinksComponent,
-    AboutComponent
+    PreviousMeetupsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     MeetupsModule,
+    LinksModule,
+    AboutModule,
     AppRoutingModule
   ],
   providers: [],

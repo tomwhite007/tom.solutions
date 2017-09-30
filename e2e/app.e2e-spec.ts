@@ -1,14 +1,14 @@
-import { TomSolutionsPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('tom-solutions App', function() {
-  let page: TomSolutionsPage;
+describe('tom.solutions2 App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new TomSolutionsPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
